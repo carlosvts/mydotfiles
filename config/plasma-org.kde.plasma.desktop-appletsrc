@@ -63,7 +63,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][3][Applets][4][Configuration]
 PreloadWeight=100
-popupHeight=507
+popupHeight=505
 popupWidth=647
 
 [Containments][3][Applets][4][Configuration][General]
@@ -141,7 +141,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][55][Applets][56][Applets][64][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][55][Applets][56][Applets][65]
 immutability=1
@@ -326,6 +326,10 @@ knownItems=org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.bluetooth,or
 [Containments][55][Applets][80]
 immutability=1
 plugin=org.kde.plasma.keyboardlayout
+
+[Containments][55][Applets][80][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][55][Applets][94]
 popupHeight=432
